@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+process.title = 'git-batch';
+
+require('../dist/gitbatch_cmd.js');
