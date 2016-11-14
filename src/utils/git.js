@@ -18,7 +18,7 @@ function promiseChildProcessExec(command, options) {
   });
 }
 
-export function doAddHooks(repoPath, hooks) {
+export function doAddHooks(hooks, repoPath) {
   // let promise = new Promise(function(resolve, reject){
   //   childProcess.exec('efes hook', {
   //     cwd: repoPath
